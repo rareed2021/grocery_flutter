@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "234481558688",
+    "firebase_url": "https://emailauthtest-843c8-default-rtdb.firebaseio.com",
+    "project_id": "emailauthtest-843c8",
+    "storage_bucket": "emailauthtest-843c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234481558688:android:6ceed3fd098e265fa915c5",
+        "android_client_info": {
+          "package_name": "com.example.grocery_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234481558688-talah1q3i2e1dnjnua33cmd1uodc91fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0zU3-XgetmBsGm4s70JEFDh1dsVsvZkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234481558688-talah1q3i2e1dnjnua33cmd1uodc91fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234481558688:android:83aacc8aa1b52cd6a915c5",
+        "android_client_info": {
+          "package_name": "com.test.firebaseexercise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234481558688-talah1q3i2e1dnjnua33cmd1uodc91fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0zU3-XgetmBsGm4s70JEFDh1dsVsvZkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234481558688-talah1q3i2e1dnjnua33cmd1uodc91fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234481558688:android:a280db8d6b3924d8a915c5",
+        "android_client_info": {
+          "package_name": "com.test.selfieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234481558688-talah1q3i2e1dnjnua33cmd1uodc91fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0zU3-XgetmBsGm4s70JEFDh1dsVsvZkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234481558688-talah1q3i2e1dnjnua33cmd1uodc91fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
