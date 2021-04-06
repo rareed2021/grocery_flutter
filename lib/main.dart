@@ -7,6 +7,7 @@ import 'package:grocery_flutter/ui/auth/bloc/auth_cubit.dart';
 import 'package:grocery_flutter/ui/auth/login.dart';
 import 'package:grocery_flutter/ui/auth/register.dart';
 import 'package:grocery_flutter/ui/cart/bloc/cart_bloc.dart';
+import 'package:grocery_flutter/ui/cart/cart_list.dart';
 import 'package:grocery_flutter/ui/categories/categories.dart';
 import 'package:grocery_flutter/ui/subcategory/subcatlist.dart';
 
@@ -33,6 +34,7 @@ class GroceryApp extends StatelessWidget {
         child: MaterialApp(
             debugShowCheckedModeBanner: false,
             routes: {
+              CheckoutPage.route: (context) => CheckoutPage(),
               Register.route: (context) => Register(),
               LoginWidget.route: (context) => LoginWidget(),
               CategoryPage.route: (context) => CategoryPage(),
