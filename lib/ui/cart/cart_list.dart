@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:grocery_flutter/ui/cart/cart_row.dart';
+import 'package:grocery_flutter/ui/cart/cart_summary.dart';
 import 'package:grocery_flutter/ui/common/drawer.dart';
 
 import 'bloc/cart_bloc.dart';
@@ -16,19 +17,27 @@ class CheckoutPage extends StatelessWidget {
         body: Column(
           mainAxisSize: MainAxisSize.min,
             children: [
-          BlocBuilder<CartBloc, CartState>(
-              builder: (context, state) => Expanded(
-                child: ListView(
-                      children:
-        state.items.values
-                          .map((value) => CartRow(item: value))
-                          .toList(),
-                    ),
-              )),
+          Expanded(
+            child: CartList()
+          ),
+          CartSummary(),
           Row(
               children:[Expanded(child: ElevatedButton(child: Text("Check Out")))]
           )
           ])
         );
+  }
+}
+
+class CartList extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return BlocBuilder<CartBloc, CartState>(
+        builder: (context, state) => ListView(
+          children:
+          state.items.values
+              .map((value) => CartRow(item: value))
+              .toList(),
+        ));
   }
 }

@@ -28,12 +28,12 @@ class _PageScaffold extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.autorenew),
-          onPressed: () {
-            BlocProvider.of<CategoriesCubit>(context).fetchData();
-          },
-        ),
+        // floatingActionButton: FloatingActionButton(
+        //   child: Icon(Icons.autorenew),
+        //   onPressed: () {
+        //     BlocProvider.of<CategoriesCubit>(context).fetchData();
+        //   },
+        // ),
         appBar: CartAppBar("Categories"),
         drawer: AppDrawer(),
         body: Align(alignment: Alignment.center, child: CategoryList()));

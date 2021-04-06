@@ -56,7 +56,7 @@ class CartApi {
     var uid = FirebaseAuth.instance.currentUser?.uid;
     if (uid != null) {
       var userRef = _db.reference().child(_cartPath(uid));
-      yield* userRef.onValue.map((event) {
+      yield* userRef.startAt(1).onValue.map((event) {
         //map individial value to CartItem
         final Map<String,CartItem> l =Map<String,CartItem>.from(event.snapshot.value.map((k,v) {
           final item =CartItem.fromJson(v) ;

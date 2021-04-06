@@ -38,7 +38,7 @@ class CartRow extends StatelessWidget {
                     Text("\$${item.price}"),
                   if(hasDiscount)
                     Text("\$${item.mrp}",
-                      style: TextStyle(decoration: TextDecoration.underline),
+                      style: TextStyle(decoration: TextDecoration.lineThrough),
                     ),
                   if(hasDiscount)
                     Text(" \$${item.price}",
